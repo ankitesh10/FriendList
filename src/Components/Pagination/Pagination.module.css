@@ -1,0 +1,24 @@
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.prev {
+  composes: btn;
+  margin-right: 1.5rem;
+}
+
+.next {
+  composes: btn;
+  margin-left: 1.5rem;
+}
+
+.container {
+  margin-top: 3rem;
+}

@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.name {
+  font-size: 2rem;
+  line-height: 1.2;
+}

@@ -1,0 +1,13 @@
+.item {
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.item:last-child {
+  margin-right: 1rem;
+}
+
+.active {
+  color: blue;
+}

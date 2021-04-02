@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.text {
+  margin-right: 1rem;
+}
+
+.select {
+  padding: 0.5rem 1.5rem;
+  border: transparent;
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.select:focus {
+  outline: none;
+}
+
+.clear {
+  margin-left: 4px;
+  cursor: pointer;
+}
